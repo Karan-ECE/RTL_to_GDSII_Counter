@@ -1,0 +1,153 @@
+# ----------------------------------------
+# Jasper Version Info
+# tool      : Jasper 2022.09
+# platform  : Linux 4.18.0-425.3.1.el8.x86_64
+# version   : 2022.09p002 64 bits
+# build date: 2022.11.24 12:29:17 UTC
+# ----------------------------------------
+# started   : 2026-09-15 08:23:26 EDT
+# hostname  : c2slab.iiitt.ac.in.(none)
+# pid       : 5250
+# arguments : '-label' 'session_0' '-console' '//127.0.0.1:43327' '-style' 'windows' '-data' 'AAAAsHicjYo9DkBAGAVnI3onEdZPkC00VEQoHEbDUd1kfVY2oTPJm2meAsxurcURbKKIgZGFTjyxSqGnQFOR0JKSE4szatd7mpLmx8ehzqcYxRs1H59C6I/+cgGG1xD7' '-proj' '/home/redhat/Documents/cade/counter/Formal verification/jgproject/sessionLogs/session_0' '-init' '-hidden' '/home/redhat/Documents/cade/counter/Formal verification/jgproject/.tmp/.initCmds.tcl'
+
+Any disclosure about the Cadence Design Systems software or its use
+model to any third party violates the written Non-Disclosure Agreement
+between Cadence Design Systems, Inc. and the customer.
+
+THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF
+CADENCE DESIGN SYSTEMS, INC. USE, DISCLOSURE, OR REPRODUCTION IS
+PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF CADENCE
+DESIGN SYSTEMS, INC.
+
+Copyright (C) 2000-2022 Cadence Design Systems, Inc. All Rights
+Reserved.  Unpublished -- rights reserved under the copyright laws of
+the United States.
+
+This product includes software developed by others and redistributed
+according to license agreement. See doc/third_party_readme.txt for
+further details.
+
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c) (1) (ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c) (1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+
+                          Cadence Design Systems, Inc.
+                          2655 Seely Avenue
+                          San Jose, CA 95134
+                          Phone: 408.943.1234
+
+For technical assistance visit http://support.cadence.com.
+
+Jasper Apps Analysis Session - /home/redhat/Documents/cade/counter/Formal verification/jgproject/sessionLogs/session_0
+
+WARNING (WG017): [session]: The system's locale is "ISO-8859-1", which is not UTF-8. Non-ASCII characters might not be handled correctly.
+WARNING (WG017): [jg_console]: The system's locale is "ISO-8859-1", which is not UTF-8. Non-ASCII characters might not be handled correctly.
+INFO: successfully checked out licenses "jasper_interactive" and "jasper_fao".
+INFO: reading configuration file "/home/redhat/.config/cadence/jasper.conf".
+% analyze -verilog counter.v counter_tb.v
+[-- (VERI-1482)] Analyzing Verilog file 'counter.v'
+[-- (VERI-1482)] Analyzing Verilog file 'counter_tb.v'
+% elaborate
+[INFO (HIER-8002)] counter_tb.v(23): Disabling old hierarchical reference handler
+[INFO (VERI-1018)] counter.v(1): compiling module 'counter'
+[INFO (VERI-1018)] counter_tb.v(1): compiling module 'counter_tb'
+[WARN (VERI-1060)] counter_tb.v(9): 'initial' construct is ignored
+[WARN (VERI-1060)] counter_tb.v(19): 'initial' construct is ignored
+[WARN (VERI-1060)] counter_tb.v(22): 'initial' construct is ignored
+[WARN (VDB-1002)] counter_tb.v(2): net 'clk' does not have a driver
+[WARN (VDB-1002)] counter_tb.v(3): net 'rst' does not have a driver
+INFO (ISW003): Top module name is "counter_tb".
+INFO (INL208): Elaboration synthesis summary:
+  Number of synthesized netlists          2 (0 packages)
+  Single run mode                         On
+  Pipeline                                On (2 pipelined netlists)
+  Late hierarchical reference connection  On
+  Number of analyzed Verilog modules      2 (2 synthesized)
+  Number of analyzed VHDL entities        0 (0 synthesized)
+INFO (INL003): Clearing all state information (assumes, stopats, and so forth).
+counter_tb
+[<embedded>] % clock clk
+[<embedded>] % reset rst
+INFO (IPM031): Clearing proof results of all properties.
+INFO (IRS006): Current reset condition is "rst".
+[<embedded>] % prove -all
+Ncustom1: Custom engine code is hT3Ng7hPPfiYQOTDZ3qhYOwGAM51eA+J/FjkM5shLioAsqhgLR4Ft+O1BuKG6ilQ83B9tLXSl+CwjiTMAQA
+Bcustom2: Custom engine code is hT3NZbhPDfiY2AbBQnsjfOxn6c+6e6yL+/e8fYmWaKaTqwEA
+AMcustom3: Custom engine code is hT3Ng7hP/feYQOTDZ3qhYOwGAM51eA+J/FjkM5shLioAsqhgLR4Ft+O1BuKG6ilQ83B9tLXSmmqwm7g9AQA
+
+==============================================================
+SUMMARY
+==============================================================
+           Properties Considered              : 0
+                 assertions                   : 0
+                  - proven                    : 0
+                  - bounded_proven (user)     : 0
+                  - bounded_proven (auto)     : 0
+                  - marked_proven             : 0
+                  - cex                       : 0
+                  - ar_cex                    : 0
+                  - undetermined              : 0
+                  - unknown                   : 0
+                  - error                     : 0
+                 covers                       : 0
+                  - unreachable               : 0
+                  - bounded_unreachable (user): 0
+                  - covered                   : 0
+                  - ar_covered                : 0
+                  - undetermined              : 0
+                  - unknown                   : 0
+                  - error                     : 0
+no_properties
+[<embedded>] % report -summary
+
+==============================================================
+    Jasper Verification Results
+==============================================================
+    2022.09p002 64 bits for Linux64 3.10.0-1160.21.1.el7.x86_64
+    Host Name: localhost
+    User Name: redhat
+    Printed on: Tuesday, Sep15, 2026 08:26:19 AM EDT
+    Working Directory: /home/redhat/Documents/cade/counter/Formal verification
+
+
+==============================================================
+SUMMARY
+==============================================================
+    Total Tasks           : 1
+    Total Properties      : 0
+          assumptions     : 0                   
+           - approved     : 0                   
+           - temporary    : 0                   
+          assertions      : 0                   
+           - proven       : 0                   
+           - marked_proven: 0                   
+           - cex          : 0                   
+           - ar_cex       : 0                   
+           - undetermined : 0                   
+           - unprocessed  : 0                   
+           - error        : 0                   
+          covers          : 0                   
+           - unreachable  : 0                   
+           - covered      : 0                   
+           - ar_covered   : 0                   
+           - undetermined : 0                   
+           - unprocessed  : 0                   
+           - error        : 0                   
+[<embedded>] % analyze -verilog counter_props.v
+ERROR (ENL152): "elaborate" single run mode is enabled.
+    To run "analyze" after elaborating the design, run "clear -all" and "set_elaborate_single_run_mode off" before starting the setup.
+    NOTE: Disabling this mode can cause larger memory consumption.
+
+
+INFO (IPL005): Received request to exit from the console.
+INFO (IPL014): Waiting for the Tcl-thread to exit.
+INFO: Waiting for proof threads to stop...
+INFO: Proof threads stopped.
+INFO (IPL018): The peak resident set memory use for this session was 0.522 GB.
+INFO (IPL015): The Tcl-thread exited with status 0.
+INFO (IPL016): Exiting the analysis session with status 0.

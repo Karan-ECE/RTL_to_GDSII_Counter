@@ -1,0 +1,70 @@
+2026-09-15 08:23:23.609736 (5218) main____ INFO    ----------------------------------------
+2026-09-15 08:23:23.609761 (5218) main____ INFO    Jasper version info
+2026-09-15 08:23:23.609764 (5218) main____ INFO      tool      : Jasper 2022.09
+2026-09-15 08:23:23.609767 (5218) main____ INFO      version   : 2022.09p002 64 bits
+2026-09-15 08:23:23.609768 (5218) main____ INFO      build date: 2022.11.24 12:29:17 UTC
+2026-09-15 08:23:23.609769 (5218) main____ INFO    ----------------------------------------
+2026-09-15 08:23:23.609771 (5218) main____ INFO    Runtime info:
+2026-09-15 08:23:23.609772 (5218) main____ INFO      platform  : Linux 4.18.0-425.3.1.el8.x86_64 x86_64
+2026-09-15 08:23:23.609774 (5218) main____ INFO      hostname  : c2slab.iiitt.ac.in
+2026-09-15 08:23:23.609776 (5218) main____ INFO      pid       : 5218
+2026-09-15 08:23:23.609777 (5218) main____ INFO      arguments : '-style' 'windows'
+2026-09-15 08:23:23.609779 (5218) main____ INFO      locale    : ISO-8859-1
+2026-09-15 08:23:23.609780 (5218) main____ INFO    ----------------------------------------
+2026-09-15 08:23:23.609781 (5218) main____ INFO    System resource limits info:
+2026-09-15 08:23:23.609783 (5218) main____ INFO      virtual memory: unlimited
+2026-09-15 08:23:23.609784 (5218) main____ INFO      cpu time      : unlimited
+2026-09-15 08:23:23.609787 (5218) main____ INFO      processes     : 126250
+2026-09-15 08:23:23.609790 (5218) main____ INFO      stack size    : 8388608 B
+2026-09-15 08:23:23.609792 (5218) main____ INFO      core file size: 0 B
+2026-09-15 08:23:23.609793 (5218) main____ INFO      open files    : 1024
+2026-09-15 08:23:23.609794 (5218) main____ INFO      file size     : unlimited
+2026-09-15 08:23:23.609796 (5218) main____ INFO    ----------------------------------------
+2026-09-15 08:23:23.609797 (5218) main____ INFO    Memory statistics:
+2026-09-15 08:23:23.609798 (5218) main____ INFO      total physical memory  : 32384352 kB
+2026-09-15 08:23:23.609799 (5218) main____ INFO      free physical memory   : 27512376 kB
+2026-09-15 08:23:23.609801 (5218) main____ INFO      committed address space: 9061868 kB
+2026-09-15 08:23:23.609802 (5218) main____ INFO    ----------------------------------------
+2026-09-15 08:23:23.610317 (5218) main____ INFO    Important environment variables:
+2026-09-15 08:23:23.610323 (5218) main____ INFO      CDS_AHDLCMI_ENABLE    : 'YES'
+2026-09-15 08:23:23.610325 (5218) main____ INFO      CDS_AUTO_64BIT        : 'ALL'
+2026-09-15 08:23:23.610327 (5218) main____ INFO      CDS_INST_DIR          : '/home/redhat/install/IC618'
+2026-09-15 08:23:23.610328 (5218) main____ INFO      CDS_LIC_FILE          : '5280@14.139.1.126'
+2026-09-15 08:23:23.610330 (5218) main____ INFO      CDS_Netlisting_Mode   : 'Analog'
+2026-09-15 08:23:23.610331 (5218) main____ INFO      DISPLAY               : ':0'
+2026-09-15 08:23:23.610333 (5218) main____ INFO      EDITOR                : 'gedit'
+2026-09-15 08:23:23.610334 (5218) main____ INFO      JASPERGOLD            : '/home/redhat/install/JASPER2209/jasper_2022.09p002'
+2026-09-15 08:23:23.610338 (5218) main____ INFO      JASPER_INSTALL_DIR    : '/home/redhat/install/JASPER2209/jasper_2022.09p002'
+2026-09-15 08:23:23.610339 (5218) main____ INFO      JASPER_KERNEL_CHECK   : '1'
+2026-09-15 08:23:23.610341 (5218) main____ INFO      JASPER_MACRO_LINEFILES: '1'
+2026-09-15 08:23:23.610342 (5218) main____ INFO      JASPER_OS_CHECK       : '1'
+2026-09-15 08:23:23.610344 (5218) main____ INFO      JG_MACRO_LINEFILES    : '1'
+2026-09-15 08:23:23.610345 (5218) main____ INFO      LANG                  : 'en_US'
+2026-09-15 08:23:23.610347 (5218) main____ INFO      LM_LICENSE_FILE       : '5280@14.139.1.126'
+2026-09-15 08:23:23.610348 (5218) main____ INFO    ----------------------------------------
+2026-09-15 08:23:23.610492 (5218) lic_core INFO    Initializing license system ...
+2026-09-15 08:23:23.611374 (5218) lic_core INFO    ... license system initialized.
+2026-09-15 08:23:23.612194 (5218) lic__man INFO    Claim 'main' for <ui>.
+2026-09-15 08:23:23.612212 (5218) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2026-09-15 08:23:25.132040 (5218) lic_core INFO    ... (1) checkout succeeded
+2026-09-15 08:23:25.132118 (5218) lic__man INFO    Claim 'fpv' for <ui>.
+2026-09-15 08:23:25.132129 (5218) lic_core INFO    (2) checking out 'jasper_fpv' ...
+2026-09-15 08:23:25.695645 (5218) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2026-09-15 08:23:25.695682 (5218) lic_core INFO    (3) checking out 'jasper_fao' ...
+2026-09-15 08:23:26.286389 (5218) lic_core INFO    ... (3) checkout succeeded
+2026-09-15 08:23:26.286664 (5218) main____ INFO    Tool inactivity delay is 480000 ms.
+2026-09-15 08:23:26.535242 (5218) lic__man INFO    Claim 'fpv' for <ui>.
+2026-09-15 08:23:26.616207 (5218) lic__man INFO    Unclaim 'fpv' for <ui>.
+2026-09-15 08:23:26.616231 (5218) lic__man INFO    Claim 'fpv' for <ui>.
+2026-09-15 08:23:26.618279 (5218) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2026-09-15 08:23:26.619147 (5218) session_ INFO    Analysis session with session id 'session_0' started (pid: 5250)
+2026-09-15 08:23:27.022979 (5218) session_ INFO    Analysis session 'session_0' connected to the console (host: 127.0.0.1:54700)
+2026-09-15 08:25:26.203644 (5218) lic__man INFO    Unclaim everything for 'session_0'.
+2026-09-15 08:26:07.345986 (5218) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2026-09-15 08:39:55.495123 (5218) lic__man INFO    Entering idle state.
+2026-09-15 09:27:55.631064 (5218) lic__man INFO    Leaving idle state.
+2026-09-15 09:27:55.768969 (5218) main____ INFO    About to exit: requested from GUI
+2026-09-15 09:27:55.822044 (5218) session_ INFO    Analysis session 'session_0' disconnected.
+2026-09-15 09:27:55.833804 (5218) lic_core INFO    (1) checkin jasper_interactive
+2026-09-15 09:27:56.135339 (5218) lic_core INFO    (3) checkin jasper_fao
+2026-09-15 09:27:56.185055 (5218) main____ INFO    Exiting with status 0.
